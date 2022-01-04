@@ -7,6 +7,7 @@ public class DemoClass {
 		System.setProperty("webdriver.chrome.driver", "C:\\BrowserDriver\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com/");
+		driver.get();
 		driver.close();
 		
 	}
